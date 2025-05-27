@@ -1667,6 +1667,14 @@ small {
 .navigation{
     height: 11%; 
 }
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 25rem
+}
+
+article{
+    height: 130vh
+}
 }
 
 @media (max-width: 390px){
