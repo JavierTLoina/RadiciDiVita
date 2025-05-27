@@ -1673,11 +1673,11 @@ small {
 }
 
 article{
-    height: 150vh
+    height: 145vh
 }
 
 footer{
-    height: 100vh 
+    height: 80vh 
 }
 
 .hamburger{
@@ -1685,7 +1685,7 @@ footer{
 }
 
 .navigation{
-    height: 18%
+    height: 16%
 }
 }
 
