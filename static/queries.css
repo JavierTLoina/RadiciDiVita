@@ -1673,11 +1673,19 @@ small {
 }
 
 article{
-    height: 130vh
+    height: 150vh
+}
+
+footer{
+    height: 100vh 
 }
 
 .hamburger{
     top: 37%
+}
+
+.navigation{
+    height: 18%
 }
 }
 
@@ -1720,18 +1728,6 @@ article{
 
 .pricing-p{
     padding-bottom: 1rem
-}
-
-.navigation{
-    height: 18%
-}
-
-article{
-    height: 150vh !important
-}
-
-footer{
-    height: 100vh !important
 }
 }
 
