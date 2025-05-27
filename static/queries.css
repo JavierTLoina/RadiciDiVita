@@ -96,15 +96,6 @@
     color: #f1f1f1;
     font-size: 2rem;
    }
-
-   article{
-    height: 100vh !important
-}
-
-nav{
-    height: 80vh !important
-}
-
 }
 
 /*1250*/
@@ -359,18 +350,6 @@ nav{
     font-size: 6rem;
 }
 
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 26rem !important
-}
-
-nav{
-    height: 100vh !important
-}
-
-article{
-    height: 200vh !important
-}
-
 .navigation{
     height: 11%
 }
@@ -551,22 +530,6 @@ article{
     font-size: 1.15rem; 
     font-weight: 400;
 }
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 40vh !important
-}
-
-nav{
-    height: 100vh !important
-}
-
-.navigation{
-    height: 11%
-}
-
-article{
-    height: 200vh !important
-}
 }
 
 /*980*/
@@ -641,25 +604,6 @@ article{
   height: 4.4rem;
 }
 }
-
-@media (max-width: 912px){
-    .aside-card-1, .aside-card-2, .aside-card-3{
-    height: 20vh !important
-}
-
-nav{
-    height: 45vh !important
-}
-
-.navigation{
-    height: 11% 
-}
-
-article{
-    height: 90vh !important
-}
-}
-
 
 @media (max-width: 900px){
     .text-scroll-box {
@@ -898,19 +842,6 @@ article{
 @media (max-width: 790px){
     .pricing-section-box {
   padding: 4rem 8rem 0rem 8rem;
-}
-
-article{
-    height: 120vh !important
-}
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 28vh !important
-}
-
-nav{
-    position: relative;
-    height: 60vh !important
 }
 
 .navigation{
@@ -1475,27 +1406,6 @@ nav{
 .after-footer-title{
     font-size: 3.35rem;
 }
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 37vh !important
-}
-
-.nav-h1-box{
-    position: absolute;
-    top: 55% !important
-}
-
-nav{
-    height: 85vh !important
-}
-
-.navigation{
-    height: 11%
-}
-
-article{
-    height: 160vh !important
-}
 }
 
 
@@ -1692,29 +1602,6 @@ small {
   right: 3rem;
 }
 
-article{
-    height: 130vh !important
-}
-
-.concept-box-1, .concept-box-2, .concept-box-3{
-    height: 30rem !important
-}
-
-nav{
-    position: relative;
-    height: 65vh !important
-}
-
-.navigation{
-    height: 11%;
-}
-
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    background-color: #087f5b;
-    box-shadow: 0 10px 10px 0 #02130d;
-    height: 26vh !important
-}
 }
 
 @media (max-width: 420px){
@@ -1777,23 +1664,6 @@ nav{
     font-size: 1rem;
 }
 
-article{
-    height: 137vh !important
-}
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 29vh !important
-}
-
-.nav-h1-box{
-    top: 45% !important
-}
-
-nav{
-    position: relative;
-    height: 70vh !important
-}
-
 .navigation{
     height: 11%; 
 }
@@ -1839,39 +1709,6 @@ nav{
 .pricing-p{
     padding-bottom: 1rem
 }
-
-article{
-    height: 185vh !important
-}
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 35vh !important
-}
-
-nav{
-    position: relative;
-    height: 90vh !important
-}
-}
-
-/*-------CREADO PARA RESPONSIVE DE CELULARES DE DEVTOOLS-----*/
-@media (max-width: 361px){ 
-article{
-    height: 160vh !important
-}
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 32vh !important
-}
-
-nav{
-    position: relative;
-    height: 80vh !important
-}
-
-.navigation{
-    height: 13%;
-}
 }
 
 @media (max-width: 350px){
@@ -1907,32 +1744,6 @@ small {
 
 .consent-text {
   padding-left: 1.5rem
-}
-
-
-.aside-card-1, .aside-card-2, .aside-card-3{
-    height: 30vh !important
-}
-
-.nav-h1-box{
-    position: absolute;
-    top: 49% !important
-}
-
-.nav-h1-box h1{
-    font-size: 6rem !important
-}
-
-nav{
-    height: 70vh !important
-}
-
-.navigation{
-    height: 11%
-}
-
-article{
-    height: 137vh !important
 }
 }
 
