@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import sqlite3
-from werkzeug.security import check_password_hash  
 
 app = Flask(__name__)
 app.secret_key = 'clave_secreta'
@@ -8,14 +7,10 @@ app.secret_key = 'clave_secreta'
 def validar_usuario(username, password):
     conn = sqlite3.connect('usuarios.db')
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM usuarios WHERE username=?", (username,))
+    cursor.execute("SELECT * FROM usuarios WHERE username=? AND password=?", (username, password))
     usuario = cursor.fetchone()
     conn.close()
-    
-    if usuario:
-        if check_password_hash(usuario[2], password):
-            return usuario
-    return None
+    return usuario
 
 @app.route('/')
 def index():
@@ -36,7 +31,30 @@ def login():
 @app.route('/dashboard')
 def dashboard():
     if 'usuario' in session:
-        return render_template('dashboard.html', usuario=session['usuario'])
+        conn = sqlite3.connect('usuarios.db')
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT COUNT(*) FROM clientes")
+        emails_count = cursor.fetchone()[0]
+        
+        cursor.execute("SELECT COUNT(*) FROM usuarios")
+        usuarios_count = cursor.fetchone()[0]
+        
+        cursor.execute("SELECT email, cap FROM clientes")
+        clientes = cursor.fetchall()
+        
+        estado_proyecto = "En lanzamiento"
+        
+        conn.close()
+        
+        return render_template(
+            'dashboard.html',
+            usuario=session['usuario'],
+            emails_count=emails_count,
+            usuarios_count=usuarios_count,
+            estado_proyecto=estado_proyecto,
+            clientes=clientes
+        )
     return redirect(url_for('login'))
 
 @app.route('/logout')

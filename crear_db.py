@@ -1,5 +1,4 @@
 import sqlite3
-from werkzeug.security import generate_password_hash
 
 conn = sqlite3.connect('usuarios.db')
 cursor = conn.cursor()
@@ -12,13 +11,20 @@ cursor.execute('''
     )
 ''')
 
-hashed_password = generate_password_hash('admin123')
-try:
-    cursor.execute("INSERT INTO usuarios (username, password) VALUES (?, ?)", ('admin', hashed_password))
-    print("Usuario 'admin' creado con contraseña hasheada.")
-except sqlite3.IntegrityError:
-    print("El usuario 'admin' ya existe. No se agregó de nuevo.")
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS clientes (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        email TEXT NOT NULL,
+        cap TEXT NOT NULL
+    )
+''')
 
-conn.commit()
+try:
+    cursor.execute("INSERT INTO usuarios (username, password) VALUES (?, ?)", ('admin', 'admin123'))
+    conn.commit()
+    print("Usuario 'admin' creado con contraseña 'admin123'.")
+except sqlite3.IntegrityError:
+    print("Usuario 'admin' ya existe.")
+
 conn.close()
-print("Base de datos creada o actualizada.")
+
