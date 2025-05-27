@@ -135,14 +135,16 @@ nav{
 
 .side-menu {
   position: fixed;
-  top: 0;
-  right: -250px;      
-  width: 250px;
-  height: 100vh;
-  background-color: rgba(23, 23, 23, 0.2);
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 410px;
+  height: 23vh;
   color: white;
   padding: 2rem 1rem;
-  box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+  background-color: rgba(207, 206, 206, 0.3);
+  border-radius: 2rem;
   transition: right 0.3s ease;
   z-index: 1000;
 }
@@ -153,8 +155,9 @@ nav{
 }
 
 .side-menu ul li {
-    margin: 2rem 0;
-    text-align: center;
+    margin: 1rem 1rem 1rem 2.2rem;
+    padding-bottom: 3rem;
+    text-align: left;
 }
 
 .side-menu ul li a {

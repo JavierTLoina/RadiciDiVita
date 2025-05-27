@@ -27,7 +27,7 @@ const sideMenu = document.getElementById('sideMenu');
 hamburger.addEventListener('click', (e) => {
     e.stopPropagation(); 
     const isMenuOpen = sideMenu.style.right === '0px';
-    sideMenu.style.right = isMenuOpen ? '-250px' : '0px';
+    sideMenu.style.right = isMenuOpen ? '-560px' : '0px';
 });
 
 document.addEventListener('click', (e) => {
@@ -35,7 +35,7 @@ document.addEventListener('click', (e) => {
     const isClickOnHamburger = hamburger.contains(e.target);
 
     if (!isClickInsideMenu && !isClickOnHamburger) {
-        sideMenu.style.right = '-250px';
+        sideMenu.style.right = '-560px';
     }
 });
 
