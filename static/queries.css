@@ -1,0 +1,1968 @@
+/*1500*/
+@media (max-width: 1500px){
+    .nav-h1-box{
+    top: 43%;
+    }
+
+    .logo{
+    width: 130px;
+    height: 130px;
+    }
+
+    .navigation{
+    height: 20%;
+    }
+
+    .text-scroll-box {
+    font-size: 4.5rem;
+    padding-top: 20rem;
+    padding-bottom: 25rem
+    }
+
+    
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 35vh
+}
+
+   .testimonial-grid-3col{
+    padding-top: 4rem;
+    padding-bottom: 8rem
+}
+
+   .testimonials-section-title{
+    padding-top: 30rem;
+   }
+}
+
+/*1350*/
+@media (max-width: 1350px){
+    .nav-h1-box{
+    top: 43%;
+    }
+
+    .nav-h1-box h1{
+    font-size: 13rem;
+    }
+
+    .logo{
+    width: 130px;
+    height: 130px;
+    }
+
+    .navigation{
+    height: 20%;
+    }
+
+    .text-scroll-box {
+    font-size: 4.3rem;
+    padding-top: 15rem;
+    padding-bottom: 21rem
+    }
+
+    .concept-section-grid-3col{
+    margin-top: 7rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+
+    .concept-box-1, .concept-box-2, .concept-box-3{
+    background: linear-gradient(to bottom, #084e39,#084e39,#084e39, #084e39, #117557);
+    height: 43rem;
+    border-radius: 2rem;
+}
+
+   .concept-grid-box{
+    height: 35rem;
+   }
+
+   .concept-section-grid-3col{
+    padding-bottom: 5rem
+   }
+
+   .concept-icon-box li{
+    padding-top: 1.4rem;
+   }
+
+   .aside-title{
+    padding-top: 15rem;
+    font-size: 5.5rem;
+   }
+   
+   .after-footer-title{
+    font-size: 5.3rem;
+   }
+  
+   .after-footer-p{
+    color: #f1f1f1;
+    font-size: 2rem;
+   }
+
+   article{
+    height: 100vh !important
+}
+
+nav{
+    height: 80vh !important
+}
+
+}
+
+/*1250*/
+/*1350*/
+@media (max-width: 1250px){
+    .nav-h1-box{
+    top: 43%;
+    }
+
+    .nav-h1-box h1{
+    font-size: 12.5rem;
+    }
+
+    .logo{
+    width: 130px;
+    height: 130px;
+    }
+
+    .navigation{
+    height: 20%;
+    }
+
+      .testimonial-desc{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+    .text-scroll-box {
+    font-size: 4rem;
+    padding-top: 13rem;
+    padding-bottom: 18rem
+    }
+
+    .box-p{
+    color:#ced4da;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.55rem;
+    }
+
+    .concept-icon-box li{
+    font-size: 1.5rem;
+    }
+    
+    .box-img{
+    height: 41%;        
+    }
+
+    .perfil-image{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+    .concept-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    }
+
+    .aside-card-1, .aside-card-2, .aside-card-3{
+    height: 37vh;
+    }
+
+    .pricing-section-box {
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 8rem 4rem 8rem;
+    }
+
+.basic-plan, .standard-plan, .premium-plan{
+    height: 47rem;
+}
+
+
+.price-button{
+    font-size: 1.7rem;
+    margin-top: 2rem
+}
+
+.yes-icon, .no-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.testimonials-section-title{
+    font-size: 5.5rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 24rem;
+}
+
+.testimonial-grid-3col{
+    padding-bottom: 4rem
+}
+
+.after-footer-title{
+    font-size: 5rem;
+}
+
+ .price-button-standard{
+    font-size: 1.7rem;
+    margin-top: 2rem
+}
+}
+
+/*1150*/
+@media (max-width: 1150px){
+    .nav-h1-box{
+    top: 43%;
+    }
+
+    .nav-h1-box h1{
+    font-size: 12.5rem;
+    }
+
+    .logo{
+    width: 130px;
+    height: 130px;
+    }
+
+    .navigation{
+    height: 20%;
+    }
+
+    .text-scroll-box {
+    font-size: 3.6rem;
+    padding-top: 13rem;
+    padding-bottom: 18rem
+    }
+
+    .box-h1{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    }
+
+    .concept-section-grid-3col{
+    gap: 1.4rem;
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+    margin-top: 6rem;
+    padding-bottom: 5rem
+}
+
+    .concept-box-1, .concept-box-2, .concept-box-3{
+    height: 37rem;
+    }
+
+    .concept-h1{
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+    }
+
+    .aside-title{
+    padding-top: 15rem;
+    font-size: 5.5rem;
+    }
+
+    .article-title{
+    font-size: 6rem;
+    padding-top: 15rem
+}
+
+    .article-title-p{
+    font-size: 2rem;
+    }
+
+    .price-button-standard{
+    font-size: 1.7rem;
+    margin-top: 2rem
+}
+   
+    .testimonial-box1{
+    background-color: #f1f1f1;
+    padding: 2rem 1rem 4rem 5rem;
+    }
+
+    .testimonial-desc{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+    .testimonial-name{
+    padding-bottom: 0.3rem;
+    }
+
+    .footer-title{
+    font-size: 7rem;
+    }
+
+    .footer-h3{
+    font-size: 2rem;
+    }
+
+    .social-media{
+    font-size: 2rem;
+    }
+
+    .aside-box h1{
+    font-size: 3rem;
+    }
+
+    .aside-icon-box li{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    }
+
+    .aside-icon{
+    width: 2.5rem;
+    height: 2.5rem
+}
+
+    .aside-card-1, .aside-card-2, .aside-card-3{
+    background-color: #087f5b;
+    box-shadow: 0 10px 10px 0 #02130d;
+    height: 39vh
+}
+
+   
+.basic-plan, .standard-plan, .premium-plan{
+    height: 42rem;
+}
+
+.testimonials-section-title{
+    padding-top: 13rem;
+}
+
+.after-footer-title{
+    font-size: 4.7rem;
+}
+
+.after-footer-btn {
+    font-size: 1.4rem;
+}
+}
+
+/*1140*/
+@media (max-width: 1140px){
+    .price-button-standard{
+    font-size: 1.5rem;
+    }
+
+    .nav-h1-box{
+    position: absolute;
+    top: 49%;
+}
+
+.nav-h1-box h1{
+    font-size: 6rem;
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 26rem !important
+}
+
+nav{
+    height: 100vh !important
+}
+
+article{
+    height: 200vh !important
+}
+
+.navigation{
+    height: 11%
+}
+}
+
+/*1122*/
+@media (max-width: 1122px){
+    .price-button{
+    font-size: 1.5rem;
+    }
+
+    .basic-plan, .standard-plan, .premium-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    border: solid 0.3rem #d3f9d8;
+    padding: 3rem;
+    border-radius: 2rem;
+    height: 46rem;
+    }
+}
+
+/*1107*/
+@media (max-width: 1107px){
+    .nav-h1-box h1{
+    font-size: 12rem;
+    }
+
+    .text-scroll-box {
+    line-height: 1.1;
+    font-size: 3.65rem;
+    padding-top: 10rem;
+    padding-bottom: 17rem
+    }
+
+    .article-title{
+    font-size: 6.3rem;
+    }
+
+    .pricing-section-box {
+     gap: 2rem;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 4rem 10rem 4rem 10rem
+    }
+
+    .price-button .price-button-standard{
+    font-size: 1.5rem;
+    }
+
+    .button-icon{
+    display: none
+}
+
+    .price-button-standard{
+    font-size: 1.4rem;
+    }
+
+    .basic-plan, .standard-plan, .premium-plan{
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    border: solid 0.3rem #d3f9d8;
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 49rem;
+    }
+}
+
+/*1086*/
+@media (max-width: 1107px){
+    .basic-plan, .standard-plan, .premium-plan{
+    border-radius: 2rem;
+    color: #fff;
+    border: solid 0.3rem #d3f9d8;
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 49rem;
+    }  
+
+    .pricing-box-title {
+     background-color: white;
+     border-radius: 3rem;
+     padding: 0.5rem 1rem;
+     display: inline-block;
+     margin-bottom: 1.5rem;
+}
+ }
+
+/*1080*/
+@media (max-width: 1080px){
+article{
+    background-color: #051f0a;
+    height: 210vh;
+}
+
+.pricing-section-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem 15rem 0 15rem;
+}
+
+  .basic-plan, .standard-plan, .premium-plan{
+    border-radius: 2rem;
+    color: #fff;
+    border: solid 0.3rem #d3f9d8;
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    }  
+
+    .pricing-p{
+    padding-top: 5rem;
+    }
+
+    .pricing-section-box > *:nth-child(3) {
+    grid-column: 1 / 3; 
+    justify-self: center; 
+    width: 50%; 
+    }    
+
+    .testimonial-box1{
+    background-color: #f1f1f1;
+    padding: 3rem 3rem 4rem 3rem;
+}
+
+.testimonial-diferent-box{
+    background-color: #f4f4f4;
+    padding: 3rem 5rem 4rem 3rem;
+    box-shadow: 10px 0 10px 0 rgba(23, 23, 23, 0.9)
+}
+
+    .testimonial-name{
+    font-size: 1.7rem;
+    color: #000;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    font-family: var(--inter)
+}
+
+.testimonial-desc{
+    font-size: 1.2rem; 
+    color: #495057;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 3rem;
+    line-height: 1.2;
+}
+
+.testimonial-icon{
+    width: 1.7rem;
+    height: 1.7rem;
+    color: #fcc419;
+    fill: #fcc419
+}
+
+.pricing-box-title, .pricing-box-title-standard{
+  text-align: center;
+}
+
+.testimonials-section-title{
+    padding-top: 30rem;
+}
+
+}
+
+/*1060*/
+@media (max-width: 1060px){
+  .testimonial-desc{
+    font-size: 1.15rem; 
+    font-weight: 400;
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 40vh !important
+}
+
+nav{
+    height: 100vh !important
+}
+
+.navigation{
+    height: 11%
+}
+
+article{
+    height: 200vh !important
+}
+}
+
+/*980*/
+@media (max-width: 980px){
+    .text-scroll-box {
+    line-height: 1.1;
+    font-size: 3.5rem;
+    padding-top: 10rem;
+    padding-bottom: 17rem
+    }
+
+    .concept-p{
+      padding: 0rem 8rem 0rem 8rem
+    }
+
+    .box-h1{
+    font-size: 2.2rem;
+    }
+
+    .box-p{
+    font-size: 1.5rem;
+    padding: 0 2rem 0 2rem
+}
+}
+
+/*960*/
+@media (max-width: 960px){
+.nav-h1-box h1{
+    font-size: 11.5rem;
+    }
+
+    .nav-h1-box{
+    top: 50%;
+    }
+
+    .testimonial-desc{
+    font-size: 1.1rem; 
+    font-weight: 400;
+}
+
+.testimonial-box1{
+    background-color: #f1f1f1;
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+.testimonial-diferent-box{
+    background-color: #f4f4f4;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 10px 0 10px 0 rgba(23, 23, 23, 0.9)
+}
+
+.after-footer-title{
+    font-size: 4.5rem;
+}
+
+.after-footer-p{
+    font-size: 1.8rem;
+}
+
+#email {
+  padding: 1.8rem;
+  font-size: 1.3rem;
+}
+
+#cap {
+  padding: 1.8rem;
+  font-size: 1.3rem;
+}
+
+.icon-svg {
+  width: 4.3rem;
+  height: 4.4rem;
+}
+}
+
+@media (max-width: 912px){
+    .aside-card-1, .aside-card-2, .aside-card-3{
+    height: 20vh !important
+}
+
+nav{
+    height: 45vh !important
+}
+
+.navigation{
+    height: 11% 
+}
+
+article{
+    height: 90vh !important
+}
+}
+
+
+@media (max-width: 900px){
+    .text-scroll-box {
+    line-height: 1.1;
+    font-size: 3.3rem;
+    padding-top: 10rem;
+    padding-bottom: 16rem
+    }
+
+    .standard-plan::after {
+  content: 'Più popolare';
+  position: absolute;
+  top: 6%;
+  right: -15%;
+    }
+
+    .concept-h1{
+    color: #fff;
+    text-align: center;
+    font-size: 5.6rem;
+    }
+
+    .aside-title{
+    padding-top: 20rem;
+    font-size: 5.3rem;
+    }
+
+    .article-title{
+    font-size: 5.6rem;
+    padding-top: 15rem;
+    font-weight: 700;
+    }
+
+    .pricing-section-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 2rem;
+    }
+
+    .testimonial-desc{
+    font-size: 1rem; 
+    font-weight: 400;
+    padding-top: 2rem;
+    }
+}
+
+@media (max-width: 890px){
+    .nav-h1-box h1{
+    font-size: 10.7rem;
+    }
+
+    .basic-plan, .standard-plan, .premium-plan{
+    height: 42rem;
+    }
+
+    .footer-title{
+    font-size: 6.2rem;
+    }
+
+    .footer-h3{
+    font-size: 1.7rem;
+    }
+
+    .social-media{
+    font-size: 1.7rem;
+}
+
+.icon-svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.perfil-image{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+}
+
+/*870*/
+@media (max-width: 870px){
+    .standard-plan::after {
+  content: 'Più popolare';
+  position: absolute;
+  top: 6%;
+  right: -15%;
+    }
+
+     .concept-h1{
+    color: #fff;
+    text-align: center;
+    font-size: 5.2rem;
+    }
+
+    .aside-title{
+    padding-top: 20rem;
+    font-size: 5rem;
+    }
+
+    .article-title{
+    font-size: 5.2rem;
+    padding-top: 15rem;
+    font-weight: 700;
+    }
+
+    .testimonials-section-title{
+    font-size: 5rem
+}
+
+.pricing-section-box {
+  padding: 4rem 5rem 0rem 5rem;
+}
+
+.pricing-p{
+    font-size: 1.5rem;
+    padding: 3rem 6rem 0rem 6rem
+}
+
+.standard-plan::after {
+  content: 'Più popolare';
+  position: absolute;
+  top: 6%;
+  right: -10%;
+    }
+
+    .after-footer-title{
+    font-size: 4rem;
+}
+
+.after-footer-p{
+    font-size: 1.5rem;
+}
+
+.after-footer-box{
+    height: 60vh;
+    background-color: #117557;
+}
+
+.text-scroll-box {
+    font-size: 3rem;
+    line-height: 1.25;
+}
+}
+
+
+@media (max-width: 862px){
+    .hamburger { 
+   display: block;
+}
+
+.nav-list:after{
+    display: block;
+}
+
+.nav-list ul{
+    display: none;
+}
+
+.login{
+    display: none;
+}
+}
+
+
+
+@media (max-width: 821px){  
+.text-scroll-box {
+    font-size: 2.8rem;
+    line-height: 1.25;
+    padding-bottom: 15rem
+}
+
+    .concept-section-grid-3col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5rem;
+    padding-bottom: 5rem
+}
+
+.aside-title{
+    padding-top: 15rem;
+    font-size: 4.6rem
+}
+
+.concept-p{
+    font-size: 1.6rem;
+}
+
+.aside-p{
+   font-size: 1.6rem
+}
+
+.pricing-section-box {
+  padding: 4rem 5rem 0rem 5rem;
+}
+    .footer-title{
+    font-size: 4rem;
+} 
+
+    .footer-h3{
+    font-size: 1.3rem;
+}
+
+    .social-media{
+    font-size: 1.3rem;
+}
+
+    #email {
+  padding: 1.7rem;
+  font-size: 1.2rem;
+}
+
+#cap {
+  padding: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.icon-svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.pricing-p{
+    font-size: 1.5rem;
+    padding: 3rem 6rem 0rem 6rem
+}
+}
+
+
+@media (max-width: 790px){
+    .pricing-section-box {
+  padding: 4rem 8rem 0rem 8rem;
+}
+
+article{
+    height: 120vh !important
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 28vh !important
+}
+
+nav{
+    position: relative;
+    height: 60vh !important
+}
+
+.navigation{
+    height: 11%;
+}
+}
+
+
+
+@media (max-width: 750px){
+    .pricing-section-box {
+  padding: 4rem 6rem 0rem 6rem;
+}
+
+    .standard-plan::after {
+  content: 'Più popolare';
+  position: absolute;
+  top: 6%;
+  right: -13%;
+    }
+
+    .pricing-box-p{
+        font-size: 2.7rem;
+}
+
+    .footer-title{
+    font-size: 4rem;
+} 
+
+    .footer-h3{
+    font-size: 1.3rem;
+}
+
+    .social-media{
+    font-size: 1.3rem;
+}
+
+    #email {
+  padding: 1.7rem;
+  font-size: 1.2rem;
+}
+
+#cap {
+  padding: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.icon-svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+    
+.testimonials-section-sub{
+    font-size: 1.6rem;
+}
+
+.concept-section-grid-3col{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.aside-box h1{
+    font-size: 2.7rem;
+    padding-bottom: 2rem
+}
+
+.aside-icon-box li{
+    font-size: 1.26rem;
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    background-color: #087f5b;
+    box-shadow: 0 10px 10px 0 #02130d;
+    height: 41vh
+}
+}
+
+@media (max-width: 710px){
+    .nav-h1-box h1{
+    font-size: 9.6rem;
+}
+
+.box-p{
+    font-size: 1.2rem
+}
+
+.concept-section-grid-3col{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box-h1{
+    font-size: 1.7rem;
+}
+
+.concept-title{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.concept-icon-box li{
+    font-size: 1.2rem;
+}
+
+.concept-grid-box{
+    gap: 4rem;
+    height: 35rem
+}
+
+    .nav-h1-box{
+    top: 53%;
+    }
+
+    .concept-icon-box li{
+    font-size: 1.3rem;
+  }
+
+  .concept-h1{
+    color: #fff;
+    text-align: center;
+    font-size: 4.7rem;
+    }
+
+    .aside-title{
+    padding-top: 15rem;
+    font-size: 4.2rem;
+    }
+
+    .article-title{
+    font-size: 5rem;
+    padding-top: 15rem;
+    font-weight: 700;
+    }
+
+    .box-p{
+    font-size: 1.4rem;
+}
+
+    .aside-box h1{
+    font-size: 2.7rem;
+    padding-bottom: 2rem
+}
+
+.aside-icon-box li{
+    font-size: 1.26rem;
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    background-color: #087f5b;
+    box-shadow: 0 10px 10px 0 #02130d;
+    height: 41vh
+}
+
+.after-footer-title{
+    font-size: 3.7rem;
+}
+
+.after-footer-p{
+    font-size: 1.5rem;
+}
+
+.after-footer-btn {
+    font-size: 1.2rem;
+}
+
+.social-media{
+    padding-right: 2.5rem;
+}
+
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 47vh
+}
+}
+
+@media (max-width: 680px){
+    .text-scroll-box {
+    font-size: 2.5rem;
+    padding-bottom: 13rem
+}
+
+.pricing-section-box {
+  padding: 4rem 3rem 0rem 3rem;
+}
+
+.text-gradient {
+  font-size: 2rem;
+}
+
+.pricing-box-p{
+    font-size: 2.7rem;
+}
+
+.standard-plan::after {
+  content: 'Più popolare';
+  position: absolute;
+  top: 6%;
+  right: -15%;
+}
+
+.yes-icon, .no-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.price-button, .price-button-standard{
+    font-size: 1.2rem;
+}
+
+.basic-plan, .standard-plan, .premium-plan li{
+    font-size: 1.4rem;
+}
+
+
+.aside-p{
+    font-size: 1.5rem;
+    padding-right: 6rem;
+    padding-left: 6rem
+}
+
+.concept-section-grid-3col{
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+.concept-p{
+    font-size: 1.6rem;
+}
+
+.testimonials-section-title{
+    font-size: 4.5rem;
+}
+
+.testimonials-section-sub{
+    font-size: 1.6rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-left: 8rem
+}
+
+.testimonial-desc{
+    font-size: 0.9rem; 
+}
+}
+
+@media (max-width: 660px){
+     .pricing-section-box {
+        display: block;
+        padding-right: 10rem;
+        padding-left: 10rem;
+     }
+
+  .basic-plan,
+  .standard-plan,
+  .premium-plan {
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+
+  .pricing-p{
+    padding-top: 1rem
+  }
+
+  .price-button, .price-button-standard{
+    width: 100%
+  }
+
+  .pricing-box-p{
+    margin-bottom: 2rem;
+  }
+
+  .basic-plan, .standard-plan{
+    min-height: 40rem;
+    height: auto;
+  }
+
+  .premium-plan{
+    display: none
+  }
+
+  .testimonials-section-title{
+    padding-top: 10rem
+  }
+
+    .standard-plan::after{
+        display: none
+    }
+
+    .footer-title{
+    font-size: 4rem;
+} 
+
+    .footer-h3{
+    font-size: 1.3rem;
+}
+
+    .social-media{
+    font-size: 1.3rem;
+}
+
+    #email {
+  padding: 1.7rem;
+  font-size: 1.2rem;
+}
+
+#cap {
+  padding: 1.7rem;
+  font-size: 1.2rem;
+}
+
+.icon-svg {
+  width: 3rem;
+  height: 3rem;
+}
+  }
+
+
+@media (max-width: 640px){
+    .nav-h1-box h1{
+    font-size: 9rem;
+    }
+
+    .aside-card-1, .aside-card-2, .aside-card-3{
+    background-color: #087f5b;
+    box-shadow: 0 10px 10px 0 #02130d;
+    height: 43vh
+}
+
+.aside-icon-box li{
+    font-size: 1.1rem;
+}
+
+.article-title{
+    font-size: 4.3rem;
+}
+
+.aside-title{
+    font-size: 4.3rem;
+}
+
+.box-h1{
+    font-size: 2rem;
+    margin-bottom: 2rem
+}
+
+.box-p{
+    font-size: 1.3rem;
+    padding: 1rem 2rem
+}
+
+.concept-box-1, .concept-box-2, .concept-box-3{
+    background: linear-gradient(to bottom, #084e39,#084e39,#084e39, #084e39, #117557);
+    height: 34rem;
+}
+}
+
+@media (max-width: 615px){    
+.nav-h1-box h1{
+    font-size: 8.5rem;
+}
+
+.nav-h1-box{
+    position: absolute;
+    top: 66%;
+}
+}
+
+@media (max-width: 590px){    
+   .text-scroll-box {
+    font-size: 2.2rem;
+    padding-left: 5rem;
+    padding-right: 5rem
+}
+
+.concept-h1{
+    font-size: 4rem
+}
+
+.concept-p{
+    font-size: 1.5rem;
+}
+
+.box-p{
+    font-size: 1.2rem
+}
+
+.concept-section-grid-3col{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box-h1{
+    font-size: 1.7rem;
+}
+
+.concept-title{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.concept-icon-box li{
+    font-size: 1.2rem;
+}
+
+.concept-grid-box{
+    gap: 4rem;
+    height: 35rem
+}
+
+.testimonial-name{
+    font-size: 1.4rem
+}
+
+.testimonial-icon{
+    width: 1.3rem;
+    height: 1.3rem;
+    color: #fcc419;
+    fill: #fcc419
+}
+
+.testimonial-desc{
+    font-size: 0.9rem; 
+}
+
+.perfil-image{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+}
+
+@media (max-width: 585px){
+    .concept-section-grid-3col{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.2rem;
+    justify-content: center;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.concept-box-1, .concept-box-2, .concept-box-3{
+    background: linear-gradient(to bottom, #084e39,#084e39,#084e39, #084e39, #117557);
+    height: 26rem;
+}
+
+.box-h1{
+    font-size: 2.2rem;
+}
+
+.box-h1 br{
+    display: none
+}
+
+.box-p{
+    font-size: 1.5rem;
+}
+
+.concept-icon{
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0; 
+    stroke: #ccffd5
+}
+
+.aside-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 11rem;
+    background-color: #051f0a;
+}
+
+.aside-card-1{
+    margin-left: 0rem
+}
+
+.aside-card-3{
+    margin-right: 0rem
+}
+
+.aside-box h1{
+    font-size: 3.1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+
+.aside-icon-box li{
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    background-color: #087f5b;
+    box-shadow: 0 10px 10px 0 #02130d;
+    height: 48vh
+}
+
+.article-title{
+    padding-top: 10rem
+}
+
+.testimonials-section-title{
+    padding-top: 5rem;
+}
+
+.after-footer-title{
+    font-size: 3.3rem
+}
+}
+
+@media (max-width: 573px){
+    .text-scroll-box {
+        font-size: 2.1rem
+}
+}
+
+@media (max-width: 550px){
+    .text-scroll-box {
+        font-size: 2.25rem;
+        padding-left: 5rem;
+        padding-right: 5rem
+    }
+
+    .footer-grid-2col{
+     display: grid;
+     grid-template-columns: 1fr;
+}
+
+   footer{
+    background: linear-gradient(to bottom, rgba(23,23,23,0.2), rgba(23,23,23,0.3)),url(Footer.jpg);
+    background-size: cover;
+    height: 100vh
+}
+
+.ws{
+    bottom: 0;
+    left: 0;
+}
+
+.social-media{
+    display: flex;
+    justify-content: end;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-title{
+    font-size: 4rem
+}
+
+.testimonials-section-title{
+    font-size: 4rem;
+}
+
+.after-footer-title{
+    font-size: 3.35rem;
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 37vh !important
+}
+
+.nav-h1-box{
+    position: absolute;
+    top: 55% !important
+}
+
+nav{
+    height: 85vh !important
+}
+
+.navigation{
+    height: 11%
+}
+
+article{
+    height: 160vh !important
+}
+}
+
+
+@media (max-width: 500px){
+    .after-footer-title{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 3rem
+}
+
+   .after-footer-p{
+    font-size: 1.4rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem
+}
+
+   .testimonial-desc{
+    font-size: 0.8rem; 
+   }
+
+   .testimonials-section-title, .article-title, .concept-h1, .aside-title{
+    font-size: 3.7rem;
+   }
+
+   .nav-h1-box h1{
+    font-size: 7.3rem;
+    padding-right: 5rem
+}
+
+.nav-h1-box{
+    top: 61%
+}
+
+.text-scroll-box {
+  font-size: 2.2rem;
+}
+
+.concept-icon-box li{
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+}
+
+.nav-list:after{
+    font-size: 1rem;
+}
+
+.hamburger { 
+    top: 33%;
+    right: 12%; 
+    width: 4.1rem;
+    height: 4.1rem;
+}
+}
+
+@media (max-width: 486px){
+     .nav-h1-box h1{
+    font-size: 7.3rem;
+    padding-right: 7rem
+}
+
+.nav-h1-box{
+    top: 47%;
+    left: 6%
+}
+
+.aside-title{
+    padding-top: 12rem
+}
+
+.aside-p{
+    padding-bottom: 1rem
+}
+
+.article-title-p{
+    font-size: 1.5rem;
+}
+
+.testimonials-section-title{
+    padding-top: 1rem
+}
+
+small {
+  text-align: center;
+}
+
+.submit-icon {
+  right: 0rem
+}
+
+.aside-box{
+    padding: 2rem 8rem
+}
+
+.pricing-section-box{
+   padding-left: 7rem;
+   padding-right: 7rem
+}
+
+.footer-title{
+    padding-left: 4rem;
+}
+
+.footer-h3{
+    padding-left: 4rem;
+    padding-right: 2rem
+}
+
+.form-marketing {
+  margin-left: 2.5rem;
+}
+
+small {
+  text-align: left;
+  padding-left: 2rem
+}
+
+.consent-text {
+  padding-left: 2rem
+}
+}
+
+@media (max-width: 460px){
+   .testimonials-section-title, .article-title, .concept-h1, .aside-title{
+    font-size: 3.4rem;
+   }
+
+   .text-scroll-box {
+  font-size: 2rem;
+}
+
+.testimonial-grid-3col{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.testimonial-diferent-box{
+    box-shadow: none
+}
+
+   .aside-box h1{
+    font-size: 2.7rem;
+   }
+
+.aside-icon-box li{
+    font-size: 1.3rem;
+}
+
+.aside-box{
+    padding-left: 9rem;
+    padding-right: 9rem
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 43vh
+}
+
+#email {
+  width: 100%;
+  padding: 1.6rem;
+}
+
+#cap {
+  width: 100%;
+  padding: 1.6rem
+}
+
+.form-marketing {
+  margin-left: 2rem;
+}
+}
+
+@media (max-width: 450px){
+    #email {
+  width: 90%;
+  padding: 1.6rem
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+}
+
+#cap {
+  width: 90%;
+  padding: 1.6rem
+}
+
+.submit-icon{
+  right: 3rem;
+}
+
+article{
+    height: 130vh !important
+}
+
+.concept-box-1, .concept-box-2, .concept-box-3{
+    height: 30rem !important
+}
+
+nav{
+    position: relative;
+    height: 65vh !important
+}
+
+.navigation{
+    height: 11%;
+}
+
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    background-color: #087f5b;
+    box-shadow: 0 10px 10px 0 #02130d;
+    height: 26vh !important
+}
+}
+
+@media (max-width: 420px){
+   .concept-box-1, .concept-box-2, .concept-box-3{
+    background: linear-gradient(to bottom, #084e39,#084e39,#084e39, #084e39, #117557);
+    height: 30rem;
+   }
+
+   .concept-icon-box li{
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    padding-right: 4rem;
+}
+
+.concept-title{
+    text-align: left;
+    font-size: 2.7rem;
+    padding-left: 2rem;
+}
+
+.concept-img{
+    width: 450px;
+    height: 250px;
+}
+
+.box-img{     
+    height: 45%; 
+}
+
+.concept-grid-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 10rem;
+}
+
+.aside-title{
+    padding-top: 55rem;
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.aside-box, .pricing-section-box{
+    padding-left: 5rem;
+    padding-right: 5rem
+}
+
+.pricing-p{
+    font-size: 1.2rem;
+}
+
+.after-footer-title{
+    font-size: 2.6rem;
+}
+
+.after-footer-p{
+    font-size: 1.3rem;
+}
+
+.after-footer-btn{
+    font-size: 1rem;
+}
+
+article{
+    height: 137vh !important
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 29vh !important
+}
+
+.nav-h1-box{
+    top: 45% !important
+}
+
+nav{
+    position: relative;
+    height: 70vh !important
+}
+
+.navigation{
+    height: 11%; 
+}
+}
+
+@media (max-width: 390px){
+    .nav-h1-box{
+        font-size: 6.5rem;
+    }
+
+    .testimonials-section-sub{
+        font-size: 1.3rem;
+    }
+
+    .text-scroll-box{
+        padding-bottom: 9rem
+    }
+
+    .concept-section-grid-3col{
+        padding-left: 5rem;
+        padding-right: 5rem
+    }
+
+    .navigation{
+    height: 15%;
+}
+
+    .ws{
+        width: 90px;
+        height: 70px
+    }
+
+    .concept-icon-box li{
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    padding-right: 13rem;
+}
+
+.testimonials-section-title{
+    padding-top: 0.1rem
+}
+
+.pricing-p{
+    padding-bottom: 1rem
+}
+
+article{
+    height: 185vh !important
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 35vh !important
+}
+
+nav{
+    position: relative;
+    height: 90vh !important
+}
+}
+
+/*-------CREADO PARA RESPONSIVE DE CELULARES DE DEVTOOLS-----*/
+@media (max-width: 361px){ 
+article{
+    height: 160vh !important
+}
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 32vh !important
+}
+
+nav{
+    position: relative;
+    height: 80vh !important
+}
+
+.navigation{
+    height: 13%;
+}
+}
+
+@media (max-width: 350px){
+    #email {
+  width: 90%;
+  padding: 1.4rem;
+  font-size: 1rem;
+}
+
+#cap {
+  width: 90%;
+  padding: 1.4rem;
+  font-size: 1rem;
+}
+
+.footer-title{
+    padding-left: 2rem;
+}
+
+.footer-h3{
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.form-marketing {
+  margin-left: 0.5rem;
+}
+
+small {
+  text-align: left;
+  padding-left: 1.5rem
+}
+
+.consent-text {
+  padding-left: 1.5rem
+}
+
+
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 30vh !important
+}
+
+.nav-h1-box{
+    position: absolute;
+    top: 49% !important
+}
+
+.nav-h1-box h1{
+    font-size: 6rem !important
+}
+
+nav{
+    height: 70vh !important
+}
+
+.navigation{
+    height: 11%
+}
+
+article{
+    height: 137vh !important
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
