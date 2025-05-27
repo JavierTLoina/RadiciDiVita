@@ -1675,6 +1675,10 @@ small {
 article{
     height: 130vh
 }
+
+.hamburger{
+    top: 37%
+}
 }
 
 @media (max-width: 390px){
@@ -1716,6 +1720,10 @@ article{
 
 .pricing-p{
     padding-bottom: 1rem
+}
+
+.navigation{
+    height: 16%
 }
 }
 
