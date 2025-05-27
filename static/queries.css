@@ -1723,7 +1723,11 @@ article{
 }
 
 .navigation{
-    height: 16%
+    height: 18%
+}
+
+article{
+    height: 150vh
 }
 }
 
