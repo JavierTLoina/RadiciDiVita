@@ -134,12 +134,12 @@ nav{
 }
 
 .side-menu {
-     position: fixed;
+  position: fixed;
   top: 0;
   right: -250px;      
   width: 250px;
   height: 100vh;
-  background-color: rgba(23, 23, 23, 0.95);
+  background-color: rgba(23, 23, 23, 0.2);
   color: white;
   padding: 2rem 1rem;
   box-shadow: -2px 0 5px rgba(0,0,0,0.5);
