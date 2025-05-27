@@ -1602,6 +1602,8 @@ small {
   right: 3rem;
 }
 
+
+
 }
 
 @media (max-width: 420px){
@@ -1687,6 +1689,53 @@ footer{
 .navigation{
     height: 15%
 }
+
+.side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 410px;
+  height: 35vh;
+}
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+}
+}
+
+@media (max-width: 415px){
+   .side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 400px;
+  height: 35vh;
+}
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+} 
+}
+
+
+@media (max-width: 405px){
+   .side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 390px;
+  height: 35vh;
+}
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+} 
 }
 
 @media (max-width: 390px){
@@ -1729,7 +1778,38 @@ footer{
 .pricing-p{
     padding-bottom: 1rem
 }
+
+.side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 370px;
+  height: 35vh;
 }
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+} 
+}
+
+@media (max-width: 370px){
+    .side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 350px;
+  height: 35vh;
+}
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+} 
+}
+
 
 @media (max-width: 350px){
     #email {
@@ -1765,6 +1845,36 @@ small {
 .consent-text {
   padding-left: 1.5rem
 }
+
+.side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 330px;
+  height: 35vh;
+}
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+} 
+}
+
+@media (max-width: 323px){
+    .side-menu {
+  position: fixed;
+  top: 12%;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); 
+  right: -560px;      
+  width: 310px;
+  height: 35vh;
+}
+
+.side-menu ul li a {
+    font-size: 1.7rem;
+} 
 }
 
 

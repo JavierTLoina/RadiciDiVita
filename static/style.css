@@ -140,7 +140,7 @@ nav{
   -webkit-backdrop-filter: blur(3px); 
   right: -560px;      
   width: 410px;
-  height: 23vh;
+  height: 37vh;
   color: white;
   padding: 2rem 1rem;
   background-color: rgba(207, 206, 206, 0.3);
@@ -156,8 +156,8 @@ nav{
 
 .side-menu ul li {
     margin: 1rem 1rem 1rem 2.2rem;
-    padding-bottom: 3rem;
     text-align: left;
+    padding-bottom: 1.4rem
 }
 
 .side-menu ul li a {
