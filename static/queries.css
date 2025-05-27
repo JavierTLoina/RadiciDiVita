@@ -1727,7 +1727,11 @@ article{
 }
 
 article{
-    height: 150vh
+    height: 150vh !important
+}
+
+footer{
+    height: 100vh !important
 }
 }
 
