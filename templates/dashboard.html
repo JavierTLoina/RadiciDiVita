@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dashboard</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Dashboard</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='queries.css') }}">
 </head>
 <body class="dash-body">
-  <aside class="dashboard-sidebar">
-    <h1 class="dashboard-sidebar__title">Radici Di Vita</h1>
-    <nav class="dashboard-sidebar__nav">
-      <a href="{{ url_for('dashboard') }}" class="dashboard-sidebar__link active">Statistiche</a>
-      <a href="#" class="dashboard-sidebar__link">Email</a>
-      <a href="#" class="dashboard-sidebar__link">Utenti</a>
-      <a href="#" class="dashboard-sidebar__link">Impostazioni</a>
-    </nav>
-  </aside>
+   <aside class="dashboard-sidebar">
+     <h1 class="dashboard-sidebar__title">Radici Di Vita</h1>
+      <nav class="dashboard-sidebar__nav">
+        <a href="{{ url_for('dashboard') }}" class="dashboard-sidebar__link active">Statistiche</a>
+        <a href="#" class="dashboard-sidebar__link">Email</a>
+        <a href="#" class="dashboard-sidebar__link">Utenti</a>
+        <a href="#" class="dashboard-sidebar__link">Impostazioni</a>
+      </nav>
+   </aside>
 
   <main class="dashboard-main">
     <header class="dashboard-header">
@@ -32,6 +33,7 @@
       </ul>
 
       <h3 class="dashboard-content__title">Clienti registrati</h3>
+      
       {% if clientes %}
       <table class="clientes-table">
         <thead>

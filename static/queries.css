@@ -1468,6 +1468,21 @@ article{
     margin-left: 0rem
 }
 
+ .dashboard-content__list li {
+  margin-bottom: 12px;  
+  list-style: none;
+  font-size: 1.1rem;
+  padding: 6px 0;       
+}
+
+  .dashboard-content__title{
+    font-size: 1.8rem;
+  }
+
+  .dashboard-header__logout{
+    padding: 7px 7px
+  }
+
 .aside-card-3{
     margin-right: 0rem
 }
@@ -1554,7 +1569,94 @@ article{
 .after-footer-title{
     font-size: 3.35rem;
 }
+  .dashboard-sidebar {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 5px;
+    position: relative;
+    box-shadow: none;
+  }
+
+  .dashboard-sidebar__title {
+    display: none; 
+  }
+
+  .dashboard-sidebar__nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dashboard-sidebar__link {
+    display: none;
+  }
+
+  body.dash-body {
+    flex-direction: column;
+  }
+
+  .dashboard-main {
+    padding: 20px 10px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .dashboard-header__greeting {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .dashboard-header__logout {
+    width: 95%;
+    text-align: center;
+    margin: 1rem
+  }
+
+  .dashboard-content {
+    padding: 15px;
+  }
+
+  .dashboard-content__title {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .dashboard-form {
+    flex-direction: column;
+  }
+
+  .dashboard-form input {
+    flex: 1 1 100%;
+  }
+
+  .dashboard-form button {
+    width: 100%;
+  }
+
+  .clientes-table,
+  .dashboard-table {
+    font-size: 0.9rem;
+  }
+
+  .clientes-table th,
+  .clientes-table td,
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 6px;
+  }
+
+  .clientes-table th {
+    font-size: 1rem;
+  }
 }
+
 
 
 @media (max-width: 500px){
@@ -1740,6 +1842,7 @@ small {
    .testimonials-section-title, .article-title, .concept-h1, .aside-title{
     font-size: 3.4rem;
    }
+   
 
    .text-scroll-box {
   font-size: 2rem;
