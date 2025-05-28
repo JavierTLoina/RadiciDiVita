@@ -933,7 +933,6 @@ small {
 
 input::placeholder {
   color: #fff;
-  filter: blur(0.5px);
 }
 
 .submit-icon {
