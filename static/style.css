@@ -29,7 +29,7 @@ nav{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to right, rgba(23,23,23,0.3), rgba(23,23,23,0.4)),url(principal.jpg);
+    background: linear-gradient(to right, rgba(23,23,23,0.3), rgba(23,23,23,0.4)),url(principal.webp);
     background-position: center;
     background-size: cover; 
 }

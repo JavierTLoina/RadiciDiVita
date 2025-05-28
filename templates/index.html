@@ -16,7 +16,7 @@
     <nav>
     <div id="navigation" class="navigation">
         <div class="img-box">
-        <a href="{{ url_for('index') }}"><img class="logo" src="{{ url_for('static', filename='Logo.png') }}"></a>
+        <a href="{{ url_for('index') }}"><img class="logo" loading="lazy" src="{{ url_for('static', filename='Logo.png') }}"></a>
         </div>
 
         <div id="nav" class="nav-list">
@@ -51,7 +51,7 @@
 
     <!--FIXED BOXES-->
     <div class="whatsapp-logo-box">
-        <a href="#"><img class="ws" src="{{ url_for('static', filename='ws.png') }}" alt="Whatsapp"></a>
+        <a href="#"><img class="ws" loading="lazy" src="{{ url_for('static', filename='ws.png') }}" alt="Whatsapp"></a>
     </div>
 
      <div class="nav-h1-box">
@@ -98,7 +98,7 @@ Un'alternativa innovativa e sostenibile ai cimiteri tradizionali, dove la memori
     <div class="concept-section-grid-3col">
         
         <div class="concept-box-1">
-        <img class="box-img" src="{{ url_for('static', filename='box-first.jpg') }}" alt="flores">
+        <img class="box-img" loading="lazy" src="{{ url_for('static', filename='box-first.jpg') }}" alt="flores">
         <h1 class="box-h1">Parchi <br>commemorativi</h1>
         <p class="box-p"> 
             Spazi naturali dedicati alla memoria, 
@@ -108,7 +108,7 @@ Un'alternativa innovativa e sostenibile ai cimiteri tradizionali, dove la memori
         </div>
 
          <div class="concept-box-2">
-        <img class="box-img" src="{{ url_for('static', filename='box-second.jpg') }}" alt="flores">
+        <img class="box-img" loading="lazy" src="{{ url_for('static', filename='box-second.jpg') }}" alt="flores">
         <h1 class="box-h1">Targhe <br> personalizzate</h1>
         <p class="box-p">
             Ricordi tangibili con foto,
@@ -118,7 +118,7 @@ Un'alternativa innovativa e sostenibile ai cimiteri tradizionali, dove la memori
         </div>
 
          <div class="concept-box-3">
-        <img class="box-img" src="{{ url_for('static', filename='box-third.jpg') }}" alt="flores">
+        <img class="box-img" loading="lazy" src="{{ url_for('static', filename='box-third.jpg') }}" alt="flores">
         <h1 class="box-h1">Buona <br> Sostenibilità</h1>
         <p class="box-p">
            Un approccio ecologico che 
@@ -132,7 +132,7 @@ Un'alternativa innovativa e sostenibile ai cimiteri tradizionali, dove la memori
 
    <div class="concept-grid-box">
       <div class="concept-img-box">
-        <img class="concept-img" src="static/concept-image.jpg" alt="tree">
+        <img class="concept-img" loading="lazy" src="static/concept-image.jpg" alt="tree">
       </div>
 
       <div>
@@ -647,6 +647,6 @@ Un'alternativa innovativa e sostenibile ai cimiteri tradizionali, dove la memori
 </div>
 
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </body>
 </html>
