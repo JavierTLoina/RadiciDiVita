@@ -1982,7 +1982,7 @@ small {
 }
 
 article{
-    height: 100vh
+    height: 145vh
 }
 
 footer{
@@ -2163,10 +2163,6 @@ small {
   right: -560px;      
   width: 330px;
   height: 35vh;
-}
-
-article{
-    height: 220vh
 }
 
 .side-menu ul li a {
