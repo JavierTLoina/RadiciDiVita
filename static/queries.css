@@ -1923,7 +1923,7 @@ article{
 
 }
 
-@media (min-width: 420px){
+@media (max-width: 420px){
    .concept-box-1, .concept-box-2, .concept-box-3{
     background: linear-gradient(to bottom, #084e39,#084e39,#084e39, #084e39, #117557);
     height: 30rem;
@@ -2036,10 +2036,6 @@ footer{
 .side-menu ul li a {
     font-size: 1.7rem;
 } 
-
-article{
-    height: 160vh
-}
 }
 
 
