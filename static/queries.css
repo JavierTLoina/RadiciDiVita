@@ -1871,7 +1871,7 @@ small {
 }
 
 .aside-card-1, .aside-card-2, .aside-card-3{
-    height: 43vh
+    height: 28rem
 }
 
 #email {
@@ -1982,7 +1982,7 @@ small {
 }
 
 article{
-    height: 110vh
+    height: 122rem
 }
 
 footer{
@@ -2163,6 +2163,10 @@ small {
   right: -560px;      
   width: 330px;
   height: 35vh;
+}
+
+article{
+    height: 220vh
 }
 
 .side-menu ul li a {
