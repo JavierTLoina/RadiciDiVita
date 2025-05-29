@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Dashboard</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='queries.css') }}">
+</head>
+<body class="dash-body">
+   <aside class="dashboard-sidebar">
+     <h1 class="dashboard-sidebar__title">Radici Di Vita</h1>
+      <nav class="dashboard-sidebar__nav">
+        <a href="{{ url_for('dashboard') }}" class="dashboard-sidebar__link active">Statistiche</a>
+        <a href="#" class="dashboard-sidebar__link">Email</a>
+        <a href="#" class="dashboard-sidebar__link">Utenti</a>
+        <a href="#" class="dashboard-sidebar__link">Impostazioni</a>
+      </nav>
+   </aside>
+
+  <main class="dashboard-main">
+    <header class="dashboard-header">
+      <h2 class="dashboard-header__greeting">Ciao, {{ usuario }}</h2>
+      <a href="{{ url_for('logout') }}" class="dashboard-header__logout">Disconnettersi</a>
+    </header>
+
+    <section class="dashboard-content">
+      <h3 class="dashboard-content__title">Riepilogo attività</h3>
+      <ul class="dashboard-content__list">
+      <li>Emails inviati questo mese: <strong>{{ emails_count }}</strong></li>
+    <li>Stato del progetto: <strong>{{ estado_proyecto }}</strong></li>
+    <li>Nuovi utenti: <strong>{{ usuarios_count }}</strong></li>
+      </ul>
+
+      <h3 class="dashboard-content__title">Clienti registrati</h3>
+      
+      {% if clientes %}
+      <table class="clientes-table">
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>CAP</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for email, cap in clientes %}
+          <tr>
+            <td>{{ email }}</td>
+            <td>{{ cap }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p>Non ci sono ancora clienti registrati.</p>
+      {% endif %}
+    </section>
+  </main>
+</body>
+</html>

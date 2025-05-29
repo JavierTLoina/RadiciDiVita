@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='queries.css') }}">
+</head>
+<body>
+  <div class="login-header-concept-section">
+    <div class="img-box-login">
+        <a href="{{ url_for('index') }}">
+            <img class="logo-login" src="{{ url_for('static', filename='Logo.png') }}">
+        </a>
+    </div>
+</div>
+
+<header class="login-header">
+    <div class="login-header-blur"></div>
+    <h2 class="login-title">Have an account?</h2>
+
+    <div class="login-form-box">
+        {% if error %}
+            <div class="error-message">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST" class="login-form">
+            <input class="login-input" type="text" name="username" placeholder="Username" required><br>
+            <input class="login-input" type="password" name="password" placeholder="Password" required><br>
+
+            <button class="login-submit" type="submit">Sign In</button>
+
+            <div class="login-options">
+                <label class="remember-me">
+                    <input type="checkbox" name="remember">Remember me
+                </label>
+                <a href="/forgot-password" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <div class="login-separator">
+                <span>or Sign in With</span>
+            </div>
+
+            <div class="social-login">
+                <button class="social-btn facebook-btn" type="button">Facebook</button>
+                <button class="social-btn google-btn" type="button">Google</button>
+            </div>
+        </form>
+    </div>
+</header>
+</body>
+</html>
