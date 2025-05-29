@@ -2037,8 +2037,16 @@ footer{
     font-size: 1.7rem;
 } 
 
+.aside-card-1, .aside-card-2, .aside-card-3{
+    height: 25rem
+}
+
 article{
     height: 160vh
+}
+
+footer{
+    height: 80vh 
 }
 }
 
@@ -2141,8 +2149,9 @@ article{
 }
 
 footer{
-    height: 80vh 
+    height: 60vh 
 }
+
 }
 
 
