@@ -1871,7 +1871,7 @@ small {
 }
 
 .aside-card-1, .aside-card-2, .aside-card-3{
-    height: 28rem
+    height: 43vh
 }
 
 #email {
@@ -1938,8 +1938,6 @@ small {
 
 .box-img{     
     height: 45%; 
-    max-width: 450px;
-    height: auto;
 }
 
 .concept-grid-box{
@@ -1984,7 +1982,7 @@ small {
 }
 
 article{
-    height: 122rem
+    height: 210vh
 }
 
 footer{
