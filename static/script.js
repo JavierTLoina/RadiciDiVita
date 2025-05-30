@@ -39,6 +39,16 @@ document.addEventListener('click', (e) => {
     }
 });
 
+    function mostrarPopup(event) {
+        event.preventDefault(); 
+        
+        document.getElementById('thank-you-popup').style.display = 'block';
+    }
+
+    function closePopup() {
+        document.getElementById('thank-you-popup').style.display = 'none';
+    }
+
 
 
 

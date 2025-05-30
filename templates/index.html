@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}" type="image/png">
+
+    <link rel="icon" href="{{ url_for('static', filename='android-chrome-512x512.png') }}" type="image/png">
+
+    <link rel="icon" href="{{ url_for('static', filename='android-chrome-192x192.png') }}" type="image/png">
+
+    <title>Radici Di Vita</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='queries.css') }}">
 
@@ -590,60 +596,72 @@ Un'alternativa innovativa e sostenibile ai cimiteri tradizionali, dove la memori
 <!--FOOTER-->
 <footer id="footer">
     <div class="footer-grid-2col">
-    <div>
-    <h1 id="Contatti" class="footer-title">Contattaci</h1>
-    <h3 class="footer-h3">Hai domande o vuoi saperne di più sul nostro progetto <br>
-         pilota in Lombardia? Siamo qui per aiutarti.</h3>
-    
-<form class="form-marketing" action="/submit" method="post">
+        <div>
+            <h1 id="Contatti" class="footer-title">Contattaci</h1>
+            <h3 class="footer-h3">Hai domande o vuoi saperne di più sul nostro progetto <br>
+                pilota in Lombardia? Siamo qui per aiutarti.</h3>
 
-  <label for="email"></label>
-  <div class="input-wrapper">
-    <input type="email" id="email" name="email" required placeholder="Inserisci la tua email">
-    <button type="submit" class="submit-icon" aria-label="Invia email">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon-svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-      </svg>
-    </button>
-  </div>
-  <small>Inserisci un'email valida per ricevere aggiornamenti e novità.</small>
+            <form class="form-marketing" action="/submit" method="post" onsubmit="mostrarPopup(event)">
+                <label for="name"></label>
+                <div class="input-wrapper">
+                    <input type="text" id="name" name="name" required placeholder="Inserisci il tuo nome">
+                </div>
+                <small>Il nome è richiesto per personalizzare la comunicazione.</small>
 
-  <label for="cap"></label>
-  <div class="input-wrapper">
-    <input type="number" id="cap" name="cap" required placeholder="Inserisci il tuo CAP">
-    <button type="submit" class="submit-icon" aria-label="Invia CAP">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon-svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-      </svg>
-    </button>
-  </div>
-  <small>Il CAP è richiesto per personalizzare i contenuti in base alla tua zona.</small>
+                <label for="email"></label>
+                <div class="input-wrapper">
+                    <input type="email" id="email" name="email" required placeholder="Inserisci la tua email">
+                </div>
+                <small>Inserisci un'email valida per ricevere aggiornamenti e novità.</small>
 
-  <p class="consent-text">
-    Cliccando sull'icona, acconsenti a ricevere comunicazioni promozionali in conformità con la normativa sulla privacy.
-  </p>
-</form>
+                <div class="cap-group">
+                    <label for="cap"></label>
+                    <div class="input-wrapper cap-wrapper">
+                        <input type="number" id="cap" name="cap" required placeholder="Inserisci il tuo CAP">
+                        <button type="submit" class="submit-button">Invia</button>
+                    </div>
+                </div>
+                <small>Il CAP è richiesto per personalizzare i contenuti in base alla tua zona.</small>
+
+                <p class="consent-text">
+                    Cliccando sull'icona, acconsenti a ricevere comunicazioni promozionali in conformità con la normativa sulla privacy.
+                </p>
+            </form>
+        </div>
+
+        <div class="social-media">
+            <div>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="#Concetto">Concetto</a></li>
+                    <li><a href="#Vantaggi">Vantaggi</a></li>
+                    <li><a href="#Abbonamenti">Abbonamenti</a></li>
+                    <li><a href="#Contatti">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    
-    <div class="social-media">
-    <div>
-    <ul>
-    <li><a href="#">Instagram</a></li>
-    <li><a href="#">Linkedin</a></li>
-    </ul>
-    </div>
 
-    <div>
-    <ul>
-    <li><a href="Prizzes">Prizzes</a></li>
-    <li><a href="#Contatti">Contatti</a></li>
-    <li><a href="#Concetto">Concetto</a></li>
-    </ul>
-    </div>
-    
-    </div> 
+    <div class="footer-bottom">
+        <p>&copy; 2025 RadiciDiVita All rights reserved</p>
+        <a href="mailto:abbonamenti@radicidivita" class="footer-email">abbonamenti@radicidivita</a>
     </div>
 </footer>
+
+<div id="thank-you-popup" class="thank-you-popup" style="display: none;">
+    <div class="popup-content">
+        <p>Grazie per aver inviato le informazioni, resteremo in contatto!</p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+
 </div>
 
 
