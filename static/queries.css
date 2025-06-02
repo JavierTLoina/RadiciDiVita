@@ -2221,7 +2221,9 @@ footer{
     font-size: 1.7rem;
 } 
 
-
+article{
+    height: 290vh
+}
 }
 
 @media (max-width: 370px){
