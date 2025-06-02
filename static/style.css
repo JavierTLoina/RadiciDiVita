@@ -1008,6 +1008,11 @@ input::placeholder {
     margin-top: 5rem;
 }
 
+.footer-bottom a{
+    text-decoration: none;
+    color: #fff
+}
+
 .footer-email {
     color: #fff;
     text-decoration: none;
