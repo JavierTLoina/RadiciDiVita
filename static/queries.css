@@ -2244,7 +2244,11 @@ footer{
 } 
 
 article{
-    height: 145vh
+    height: 290vh
+}
+
+.pricing-p{
+    padding-top: 2rem
 }
 }
 
