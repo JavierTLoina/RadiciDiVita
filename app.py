@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import sqlite3
+from urllib.parse import quote
 
 app = Flask(__name__)
 app.secret_key = 'clave_secreta'
@@ -12,9 +13,15 @@ def validar_usuario(username, password):
     conn.close()
     return usuario
 
+@app.template_filter('url_encode')
+def url_encode_filter(s):
+    return quote(s)
+
 @app.route('/')
 def index():
-    return render_template('index.html')
+    subject = "Richiesta di informazioni"
+    body = "Buongiorno, vorrei ricevere maggiori informazioni sugli abbonamenti. Grazie"
+    return render_template('index.html', subject=subject, body=body)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
