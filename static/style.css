@@ -442,7 +442,7 @@ aside{
 /*Article*/
 article{
     background-color: #051f0a;
-    height: 100vh;
+    height: 115vh;
 }
 
 .article-title{
@@ -1005,7 +1005,7 @@ input::placeholder {
     font-size: 1.1rem;
     color: #fff;
     background-color: #051f0a;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .footer-bottom a{
