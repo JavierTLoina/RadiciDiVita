@@ -831,7 +831,12 @@ article{
 footer {
     background: linear-gradient(to bottom, rgba(23,23,23,0.2), rgba(23,23,23,0.3)), url(Footer.jpg);
     background-size: cover;
-    height: 124vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     z-index: 1000;
 }
 
@@ -1001,15 +1006,16 @@ input::placeholder {
 
 /* New Footer Bottom */
 .footer-bottom {
-    margin-top: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: auto; 
     padding: 2rem 4rem;
     font-family: var(--inter);
     font-size: 1.1rem;
     color: #fff;
-    background-color: #051f0a;
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .footer-bottom a{
