@@ -261,6 +261,16 @@ header{
     line-height: 1;
 }
 
+.concept-h1 a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: #fff
+}
+
+.concept-h1 a:hover{
+    color: #c5c5c5
+}
+
 .concept-section-grid-3col{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -284,6 +294,16 @@ header{
     color: #d0cfcf;
     font-family: var(--inter);
     text-align: center;
+}
+
+.concept-p a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: #fff
+}
+
+.concept-p a:hover{
+    color: #c5c5c5
 }
 
 .concept-title{
