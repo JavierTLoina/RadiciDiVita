@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <title>Radici Di Vita - Dashboard</title>
-   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-   <link rel="stylesheet" href="{{ url_for('static', filename='queries.css') }}">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radici Di Vita - Dashboard</title>
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}" type="image/png">
+    <link rel="icon" href="{{ url_for('static', filename='android-chrome-512x512.png') }}" type="image/png">
+    <link rel="icon" href="{{ url_for('static', filename='android-chrome-192x192.png') }}" type="image/png">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='queries.css') }}">
 </head>
 <body class="dash-body">
-   <aside class="dashboard-sidebar">
-     <h1 class="dashboard-sidebar__title">Radici Di Vita</h1>
+    <aside class="dashboard-sidebar">
+      <h1 class="dashboard-sidebar__title">Radici Di Vita</h1>
       <nav class="dashboard-sidebar__nav">
         <a href="{{ url_for('dashboard') }}" class="dashboard-sidebar__link active">Statistiche</a>
         <a href="#" class="dashboard-sidebar__link">Email</a>
         <a href="#" class="dashboard-sidebar__link">Utenti</a>
         <a href="#" class="dashboard-sidebar__link">Impostazioni</a>
       </nav>
-   </aside>
+    </aside>
 
   <main class="dashboard-main">
     <header class="dashboard-header">
@@ -38,14 +42,13 @@
       <table class="clientes-table">
         <thead>
           <tr>
-            <th>Email</th>
+            <th>Nome</th> <th>Email</th>
             <th>CAP</th>
           </tr>
         </thead>
         <tbody>
-          {% for email, cap in clientes %}
-          <tr>
-            <td>{{ email }}</td>
+          {% for nombre, email, cap in clientes %} <tr>
+            <td>{{ nombre }}</td> <td>{{ email }}</td>
             <td>{{ cap }}</td>
           </tr>
           {% endfor %}

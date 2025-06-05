@@ -14,6 +14,7 @@ cursor.execute('''
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS clientes (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nombre TEXT NOT NULL,  -- ¡Añade esta línea!
         email TEXT NOT NULL,
         cap TEXT NOT NULL
     )

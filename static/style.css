@@ -67,6 +67,20 @@ nav{
     cursor: pointer;
 }
 
+.menu-dif a{
+    color: #ffe066;
+    font-weight: bold;
+    border: 0.2rem solid #ffe066;
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+    transition: color 0.3s ease, border 0.3s ease
+}
+
+.menu-dif a:hover{
+    color: #ffec99;
+    border: 0.2rem solid #ffec99;
+}
+
 .nav-list{
     position: relative;
 }
