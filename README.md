@@ -112,11 +112,11 @@ Here you can see some screeshots of the Website in action:
 
 ### Navigation
 
-![Nav](static/half.jpeg)
+(static/half.jpeg)
 
 ### Login
 
-![Login](static/login-readme.png)
+(static/login-readme.png)
 
 
 
