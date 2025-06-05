@@ -112,8 +112,7 @@ Here you can see some screeshots of the Website in action:
 
 ### Navigation
 
-(static/half.jpeg)
+![Half Image](static/half.jpeg)
 
 ### Login
-
-(static/login-readme.png)
+![Login Readme](static/login-readme.png)
