@@ -1,6 +1,5 @@
 # Radici Di Vita
-
-![Radici Di Vita Logo](static/Logo.png) "Radici Di Vita" (Roots of Life) is a web application uniquely designed for memorialization, emphasizing themes of life, growth, and connection to nature. This project offers a serene and respectful online space for remembrance, aligning perfectly with a brand identity centered on natural beauty and enduring memory rather than traditional funeral services.
+"Radici Di Vita" (Roots of Life) is a web application uniquely designed for memorialization, emphasizing themes of life, growth, and connection to nature. This project offers a serene and respectful online space for remembrance, aligning perfectly with a brand identity centered on natural beauty and enduring memory rather than traditional funeral services.
 
 ## Table of Contents
 
@@ -31,7 +30,8 @@ The "Radici Di Vita" website provides an intuitive and aesthetically pleasing pl
 
 * **Frontend:**
     * HTML5
-    * CSS3 (`style.css` and `queries.css` for responsiveness)
+    * CSS (`style.css` and `queries.css` for responsiveness)
+    * Javascript
     * Google Fonts
 * **Backend (Inferred from `url_for` usage, typical of Flask/Jinja):**
     * Python
@@ -41,9 +41,85 @@ The "Radici Di Vita" website provides an intuitive and aesthetically pleasing pl
 
 You can access the deployed version of "Radici Di Vita" via the following link:
 
-[**Access Radici Di Vita**](YOUR_RENDER_URL_HERE)
-*(Please replace `YOUR_RENDER_URL_HERE` with the actual URL of your Render deployment.)*
+[**Access Radici Di Vita**](https://radicidivita.onrender.com))
 
 ## 5. Project Structure
 
-The general project structure (based on the provided HTML and common Flask conventions) should be similar to:
+The general project structure should be similar to:
+
+radici-di-vita/
+├── app.py  # Main Flask application file
+├── DB.py
+├── templates/
+│   └── index.html  # Main HTML template for the page
+    └── Dashboard.html
+    └── Login.html
+└── static/
+├── style.css
+├── queries.css
+├── Logo.png
+├── All images
+├── apple-touch-icon.png
+├── android-chrome-192x192.png
+└── android-chrome-512x512.png
+
+## 6. Local Installation
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/JavierTLoina/radici-di-vita.git](https://github.com/JavierTLoina/radici-di-vita.git)
+    cd radici-di-vita
+    ```
+    
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On macOS/Linux
+    # venv\Scripts\activate   # On Windows
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    pip install Flask # Or pip install -r requirements.txt if you have one
+    ```
+
+4.  **Run the application:**
+    ```bash
+    python app.py
+    ```
+
+## 7. Contributions
+
+Contributions are welcome! If you wish to improve this project, please fork the repository, make your changes, and submit a pull request.
+
+## 8. License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## 9. Contact
+
+If you have any questions or suggestions, feel free to contact me:
+
+* **[Javier Tejeda Front End Developer]**
+* [tejedajavier063@gmail.com]
+* [JavierTLoina]
+
+* ## 10. Screenshots
+
+Here you can see some screeshots of the Website in action:
+
+### Navigation
+
+![Nav](static/half.jpeg)
+
+### Login
+
+![Login](static/login-readme.png)
+
+
+
+
+
+
